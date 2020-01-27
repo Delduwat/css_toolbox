@@ -1,0 +1,58 @@
+ * { margin: 0; padding : 0; }
+
+body{
+  background-color: gray;
+}
+
+.header {
+  width: auto;
+  background-color: black;
+  color:white;
+}
+.center{
+	text-align: center;
+}
+.center-block{
+	margin:0 auto;
+	text-align: center;
+	align-content: center;
+}
+.right{
+	float: right;
+}
+.left{
+	float: left;
+}
+
+.header li{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	padding:10px;
+}
+
+.half{
+	width: 50%;
+	background-color: orange;
+	outline: 1px solid black;
+    outline-offset: -1px;
+}
+.third{
+	width: 33.3%;
+	background-color: yellow;
+	outline: 1px solid black;
+    outline-offset: -1px;
+
+}
+.main{
+	width: 70%;
+	background-color: red;
+}
+.sub-main{
+	width: 30%;
+	background-color:green;
+}
+.little{
+	width: 15%;
+	background-color: blue;
+}
